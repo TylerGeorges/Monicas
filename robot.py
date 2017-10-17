@@ -194,3 +194,6 @@ class Robot:
                         self.start()
             else:
                 print('robot offline due to invalid token or bot id?')
+
+robot = Robot()
+robot.start()
